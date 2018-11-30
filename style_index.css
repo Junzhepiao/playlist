@@ -1,0 +1,45 @@
+body {
+  background-color: #9A9B8D;
+  border-top: 2px solid black;
+}
+header {
+  background-color: #9A9B8D;
+}
+
+main {
+  background-color: #EEEEEE;
+}
+
+footer {
+  background-color: #67675A;
+  color: white;
+}
+
+p {
+  font-size: 60px;
+  color: #7A43B6;
+}
+.btn {
+  background-color: #343527;
+  height:50px;
+  width:200px;
+  font-size: 25px;
+}
+
+img {
+  width: 275px;
+  height: 275px;
+  z-index: 2;
+}
+
+#right_main_tracks {
+  background-image: url('resources/fadedTrack.jpg');
+  background-size: 100%;
+  padding: 0;
+  z-index: 1;
+}
+
+span {
+  font-size: 20px;
+}
+
