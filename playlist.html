@@ -9,16 +9,37 @@
     <script src="js_playlist.js" defer></script>
   </head>
 
+  <body>
+    <div class="containner-fluid nopadding">
+    <div id = "head_line" class="row align-items-center pt-5" style="margin-right: 0px; margin-left: 0px;">
+        <p id="title" class = "pl-5 pt-5" style="margin-bottom: 0px;"> click an album to add its tracks to the bin</p>
+    </div>
 
+    <div class="row align-items-center" style="margin-right: 0px; margin-left: 0px;">
+        <div class="col pl-0 pr-0 pt-2">
+            <div id = "album_list"></div>
+        </div>
+    </div>
 
-
-
-
-
-
+    <div class="row align-items-center" style="margin-right: 0px; margin-left: 0px;">
+        <div class="col text-center pl-5 pr-5 pb-3 pt-4">
+            <div id="info_box" ></div>
+        </div>
+    </div>
+    
+    <div class="row align-items-center" style="margin-right: 0px; margin-left: 0px;">
+        <div id = "button_box" class="col pr-0 pl-0">
+        <div class="containner pl-5 pb-5 mb-5">
+                <button type="button" class="btn btn-dark" id="click1">clear tracks</button>
+                <button type="button" class="btn btn-dark" id="click2">submit bin</button>
+        </div>
+        </div>
+    </div>
+    </div>
+  
   <footer> 
         <div class="containner-fluid pt-2 pb-2 pl-5 "> <span> &copy;</span> <span class="pl-2">2018 Junzhe Piao</span> </div>
-      </footer>
-    </body>
+  </footer>
+ </body>
   
   </html>

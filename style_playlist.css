@@ -1,0 +1,44 @@
+span {
+    font-size: 20px;
+  }
+
+footer {
+  background-color: #67675A;
+  color: white;
+}
+
+#head_line {
+    background-color: #9A9B8D;
+}
+#title {
+    font-size: 40px;
+    color: white;
+}
+
+.btn {
+  background-color: #343527;
+  height:50px;
+  width:200px;
+  font-size: 25px;
+}
+
+img {
+    width: 275px;
+    height: 275px;
+    z-index: 2;
+  }
+
+#info_box {
+    width: auto;
+    height: 250px;
+    border: 2px solid black;
+}
+
+#album_list {
+    width: auto;
+    height: 200px;
+}
+#button_box {
+    height: 275px;
+    width: auto;
+}
