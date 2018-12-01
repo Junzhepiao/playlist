@@ -32,6 +32,9 @@ img {
     width: auto;
     height: 250px;
     border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 #album_list {
