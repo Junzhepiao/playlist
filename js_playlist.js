@@ -36,7 +36,7 @@ btn_clear.addEventListener('click',function() {
    
 })
 
-
+// Using fetch send post request.
 btn_submit.addEventListener('click',function(e) {
     e.preventDefault();
     fetch(url2, {  
