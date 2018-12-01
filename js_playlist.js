@@ -53,8 +53,8 @@ btn_submit.addEventListener('click',function(e) {
   })
 })
 .then(function (data) {  
-  console.log('Request success: ', data.body);  
-})  
+  console.log('Request success: ', data);  //console receive and log a response to the console.
+})
 .catch(function (error) {  
   console.log('Request failure: ', error);  
 });
